@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" href="other/logo2.webp">
+    <link rel="stylesheet" href="Stylecss/video.css">
+    <link rel="stylesheet" href="Stylecss/header.css">
+    <link rel="stylesheet" href="Stylecss/side-bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Stylecss/general.css">
+</head>
+<body>
+    <header class="header">
+
+        <!--here we will be keeping the code for left section of the header: hamburger logo and youtube logo-->
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+        <!--This will be for the search bar using flex for responsiveness.-->
+
+        <div class="middle-section"> 
+            <input type="text" class="search-bar" name="searchbar" placeholder="Search">
+            <button class="search-button" >
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button" >
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+
+        <!--This will be used fo the right section notification, logged user profile, etc.-->
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+           
+             <div class="youtube-apps-container">
+                <img class="youtube-apps" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            
+
+            <div class="notifications-container">
+                <div class="container-for-number">
+                    <img class="notifications" src="icons/notifications.svg"><div class="notification-div-no">7</div>
+                </div>
+                <div class="tooltip">Notifications</div>
+            </div>
+
+            
+            <img class="my-channel" src="icons/my-channel.jpg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="icon-div"><img class="home-icon" src="icons/home.svg"><div class="icon-name">Home</div></div>
+        <div class="icon-div"><img class="" src="icons/explore.svg"><div class="icon-name">Explore</div></div>
+        <div class="icon-div"><img class="" src="icons/subscriptions.svg"><div class="icon-name">Subscriptions</div></div>
+        <div class="icon-div"><img class="" src="icons/originals.svg"><div class="icon-name">Originals</div></div>
+        <div class="icon-div"><img class="" src="icons/youtube-music.svg"><div class="icon-name">YouTube Music</div></div>
+        <div class="icon-div"><img class="" src="icons/library.svg"><div class="icon-name">Library</div></div>
+    </nav>
+   
+      <main>
+            <!--FIRST VIDEO--> 
+        <div class="video-grid">
+            <div class="video-preview" >
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-1.avif">
+                    <div class="video-time" id="live-video" >LIVE</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-1.jpg"></div>
+                    <div class="video-info">
+                        <p class="video-title">🔴LIVE 24/7 | Slow English Listening Stories for Beginners (A2) | Safety Lessons &#183; Daily Life #14</p>
+                        <p class="video-author">Kiddie Tunes TV</p>
+                        <p class="stats">10k watching now &#183; 3 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--SECOND VIDEO-->
+            <div class="video-preview" >
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-2.avif">
+                    <div class="video-time" >27:47</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-2.jpg"></div>
+                    <div class="video-info">
+                        <p class="video-title">Competing in HYROX with the shoulder monster Ito-san! But the result</p>
+                        <p class="video-author">아모띠 amotti</p>
+                        <p class="stats">390k views &#183; 5 mo ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--THIRD VIDEO-->
+            <div class="video-preview" >
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-3.avif">
+                    <div class="video-time" >17:16</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-3.jpg"></div>
+                    <div class="video-info">
+                        <p class="video-title">Dwarfs vs. Kids - (Who's Stronger?)</p>
+                        <p class="video-author">Jesse James West</p>
+                        <p class="stats">22M views &#183; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+
+            <!--row 2 :::::::::::: FIRST VIDEO--> 
+        
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-4.avif">
+                        <div class="video-time" >1:29:09</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-4.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">ASMR Programming - Coding IOS(IPhone) Dynamic Music -NO...</p>
+                            <p class="video-author">AsmrProg</p>
+                            <p class="stats">5.7M views &#183; 4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--SECOND VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-5.avif">
+                        <div class="video-time" >&#9834; 3:50</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-5.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">[MV] DAVICHI(다비치) - This Love(이 사랑) l Descendants of the Sun 태양의 후예 OST...</p>
+                            <p class="video-author">MUSIC&NEW 뮤직앤뉴</p>
+                            <p class="stats">306M views &#183; 4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--THIRD VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-6.avif">
+                        <div class="video-time" >31:16</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-6.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">I Skid Down Mount Everest (World first, no oxygen)</p>
+                            <p class="video-author">Red Bull</p>
+                            <p class="stats">52M views &#183; 11 mo ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!--row 3 :::::::::::: FIRST VIDEO--> 
+            
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-7.avif">
+                        <div class="video-time" >18:35:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-7.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">Learn C Programming and OOP with Dr. Chun=ck [feat. classic book...</p>
+                            <p class="video-author">freeCodeCamp.org</p>
+                            <p class="stats">814k views &#183; 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--SECOND VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-8.avif">
+                        <div class="video-time" >18:13</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-8.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">5 exercises to Widen Your Frame For Everyday People</p>
+                            <p class="video-author">조준_Jun Cho</p>
+                            <p class="stats">604k views &#183; 3 mo ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--THIRD VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-9.avif">
+                        <div class="video-time" >9:13</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-9.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">Crazy Workout with Khamzat Chimaev at Treigning Lab| LA...</p>
+                            <p class="video-author">Arman Tsaukyan</p>
+                            <p class="stats">1M views &#183; 6 mo ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!--row 4 :::::::::::: FIRST VIDEO--> 
+            
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-10.avif">
+                        <div class="video-time" >22:28</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-10.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">Beat LeBron James In Basketball, Win $100,000</p>
+                            <p class="video-author">MrBeast</p>
+                            <p class="stats">35M views &#183; 1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--SECOND VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-11.avif">
+                        <div class="video-time" >24:26</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-11.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">Camping in an Alaskan Survival Cabin</p>
+                            <p class="video-author">Outdoor Boys</p>
+                            <p class="stats">37M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--THIRD VIDEO-->
+                <div class="video-preview" >
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-12.avif">
+                        <div class="video-time" >46:17</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="channel-logo/channel-12.jpg"></div>
+                        <div class="video-info">
+                            <p class="video-title">Breathtaking: K2 - The World's Most Dangerous Mountain | Eddie Bauer</p>
+                            <p class="video-author">Eddie Bauer</p>
+                            <p class="stats">19M views &#183; 6 years ago</p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+        </div>
+      </main>
+    
+</body>
+</html>
